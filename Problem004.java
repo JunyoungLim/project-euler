@@ -17,7 +17,7 @@ public class Problem004
 		int ans = 0;
 		for (int i = 100; i < 1000; i++)
 		{
-			for (int j = 100; j < 1000; j++)
+			for (int j = i; j < 1000; j++)
 			{
 				int temp = i*j;
 				if (temp > ans && isPalin(""+temp)) ans = temp;
