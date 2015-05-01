@@ -27,4 +27,6 @@ public class Problem001
 	
 }
 
+// Execution time is 0.000803676 seconds
+
 
