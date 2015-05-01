@@ -8,7 +8,7 @@ package problems;
  * @author Ainodyne
  *
  * @version 1.00
- * @since Apr 30, 2015
+ * @since Dec 14, 2014
  */
 public class Problem001
 {
