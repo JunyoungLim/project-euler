@@ -12,10 +12,6 @@ package problems;
  */
 public class Problem003
 {
-
-	/**
-	 * 
-	 */
 	public static void run()
 	{
 	    long d = 600851475143L;
@@ -29,9 +25,6 @@ public class Problem003
 	}
 
 }
-
-
-
 
 
 // Execution time is 0.002033269 seconds
