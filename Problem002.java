@@ -12,28 +12,23 @@ package problems;
  */
 public class Problem002
 {
-
-	/**
-	 * 
-	 */
 	private static final int LIMIT = 4000000;
 	
 	public static void run()
-    {
-        int f = 1;
-        int s = 1;
-        int fibo = 0;
-        int sum = 0;
-        while (fibo <= LIMIT)
-        {
-            fibo = f + s;
-            if (fibo%2 == 0) sum += fibo;
-            f = s;
-            s = fibo;
-        }
-        System.out.println(sum);
-    }
-
+	{
+		int f = 1;
+		int s = 1;
+		int fibo = 0;
+		int sum = 0;
+		while (fibo <= LIMIT)
+		{
+			fibo = f + s;
+			if (fibo%2 == 0) sum += fibo;
+			f = s;
+			s = fibo;
+		}
+		System.out.println(sum);
+	}
 }
 
 
