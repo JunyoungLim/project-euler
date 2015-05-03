@@ -25,7 +25,11 @@ public class Problem008
 		for (int i=0; i <= NUM.length()-LEN; i++)
 		{
 			long temp = 1;
-			for (int j=i; j < i+LEN; j++) temp *= digit[j];
+			for (int j=i; j < i+LEN; j++)
+			{
+				if (digit[j] == 0) break;
+				temp *= digit[j];
+			}
 			if (temp > max) max = temp;
 		}
 		System.out.println(max);
@@ -34,4 +38,5 @@ public class Problem008
 
 
 // Answer is 23514624000
-// Execution time is 0.001408412 seconds
+// Execution time is 0.001274597 seconds
+
