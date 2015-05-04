@@ -9,5 +9,5 @@ multiple (3 or 5) = multiple(3) + multiple(5) - multiple (3 and 5)
 Since the sum of consecutive integers from 1 to n is (n)(n+1)/2  
 multiple(3) = 3 + 6 + 9 + 12 + 15 + ... = 3 * (1 + 2 + 3 + 4 + 5 + ...)  
 = 3 * (n)(n+1)/2  
-multiple (3 or 5) = 166833 + 99500 - 33165 = 233168
+multiple (3 or 5) = 166833 + 99500 - 33165 = 233168  
 
