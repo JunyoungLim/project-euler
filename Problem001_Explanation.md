@@ -4,6 +4,7 @@ _If we list all the natural numbers below 10 that are multiples of 3 or 5, we ge
 _The sum of these multiples is 23._  
 _Find the sum of all the multiples of 3 or 5 below 1000._  
 <br /><br />
+**solution:**  
 Using the probability theory,  
 multiple (3 or 5) = multiple(3) + multiple(5) - multiple (3 and 5)  
 Since the sum of consecutive integers from 1 to n is (n)(n+1)/2  
