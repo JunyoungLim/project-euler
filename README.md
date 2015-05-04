@@ -1,3 +1,3 @@
 # Project-Euler
-Project Euler Solutions
-by High School Student in California
+Project Euler Solutions\n
+by a High School Student in California
