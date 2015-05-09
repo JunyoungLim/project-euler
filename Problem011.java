@@ -51,6 +51,7 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 	}
 	
 	
+	// read in the text file containing 20 X 20 grid
 	public static int[][] read()
 	{
 		int[][] text = new int[20][20];
