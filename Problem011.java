@@ -24,6 +24,7 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 		int limit = grid.length-3;
 		int hor=0, ver=0, dia1=0, dia2 =0;
 		
+		// check horizontal and vertical products
 		for (int i=0; i < grid.length; i++)
 		{
 			int h, v;
@@ -36,6 +37,7 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 			}
 		}
 		
+		// check diagonal products (both \ and / )
 		for (int i=0; i < limit; i++)
 		{
 			int d1, d2;
