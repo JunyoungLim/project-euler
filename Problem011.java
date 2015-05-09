@@ -58,9 +58,7 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 	
 	
 	
-	
-	
-	
+	// String "text011" is stored in Texts interface - the path name depends on where you store the file in computer
 	// read in the text file containing 20 X 20 grid
 	public static int[][] read()
 	{
