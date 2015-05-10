@@ -13,3 +13,5 @@ multiple(3) = 3 + 6 + 9 + 12 + 15 + ... = 3 * (1 + 2 + 3 + 4 + 5 + ...)
 = ![equation](http://www.sciweavers.org/tex2img.php?eq=3%2A%5Cfrac%7Bn%28n%2B1%29%7D%7B2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)  
 multiple (3 or 5) = 166833 + 99500 - 33165 = 233168
 
+<img src="http://www.sciweavers.org/tex2img.php?eq=3%2A%5Cfrac%7Bn%28n%2B1%29%7D%7B2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="3*\frac{n(n+1)}{2} " width="104" height="43" />
+
