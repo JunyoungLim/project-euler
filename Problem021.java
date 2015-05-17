@@ -28,17 +28,17 @@ public class Problem021
 	}
 	
 	public static int sumFactor(int n)
-    {
+	{
 		if (n == 0) return 0;
-        int sum = 1;
-        int sqrt = (int) Math.sqrt(n);
-        for (int i=2; i <= sqrt; i++)
-        {
-            if (n%i == 0) sum += i + n/i;
-        }
-        if (n == sqrt*sqrt) sum -= sqrt;
-        return sum;
-    }
+		int sum = 1;
+		int sqrt = (int) Math.sqrt(n);
+		for (int i = 2; i <= sqrt; i++)
+		{
+			if (n%i == 0) sum += i + n/i;
+		}
+		if (n == sqrt*sqrt) sum -= sqrt;
+		return sum;
+	}
 }
 
 
