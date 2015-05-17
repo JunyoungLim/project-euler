@@ -22,8 +22,8 @@ public class Problem003
 				while (d%i == 0) d /= i;
 		}
 		
-		if (d == 1) System.out.println(i); // if the remaining number is in form of p^k where p = prime number and k = integer
-		else System.out.println(d); // if the remaining number is the largest prime factor
+		if (d == 1) System.out.println(i); // if processed d is in form of p^k where p = prime number and k = integer
+		else System.out.println(d); // if processed d is the largest prime factor
 
 	}
 
