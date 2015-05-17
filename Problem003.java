@@ -20,9 +20,10 @@ public class Problem003
 			if (d%i == 0)
 				while (d%i == 0) d /= i;
 		}
+		
 		int sqrt = (int)Math.sqrt(d);
-		if (d == sqrt*sqrt) System.out.println(sqrt);
-		System.out.println(d);
+		if (d == sqrt*sqrt) System.out.println(sqrt); // if the remaining number is a perfect square
+		else System.out.println(d); // if the remaining number is the largest prime factor
 
 	}
 
