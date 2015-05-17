@@ -31,5 +31,5 @@ public class Problem003
 
 
 // Answer is 6857
-// Execution time is 7.68934E-4 seconds
+// Execution time is 0.002149304 seconds
 
