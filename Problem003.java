@@ -31,7 +31,7 @@ public class Problem003
 		// The if-statement for division by 2 at the beginning of this code
 		// and the last if-else statement wasn't necessary for this specific problem
 		// but including the if-else block make it a universal solution
-		// that can be applied to any positive odd integer
+		// that can be applied to any positive integer
 
 	}
 
