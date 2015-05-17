@@ -24,6 +24,12 @@ public class Problem003
 		
 		if (d == 1) System.out.println(i); // if processed d is in form of p^k where p = prime number and k = integer
 		else System.out.println(d); // if processed d is the largest prime factor
+		
+		// The last if-else statement wasn't necessary for this specific problem
+		// but including the if-else block make it a universal solution
+		// that can be applied to any positive odd integer
+		// In order to do make it universal to any whole number (both odd and even)
+		// include division by 2 above the for-loop
 
 	}
 
