@@ -21,7 +21,7 @@ public class Problem003
 			if (d%i == 0)
 				while (d%i == 0) d /= i;
 		}
-		
+		i--; // take out unnecessary increment of i at the end of the for-loop
 		if (d == 1) System.out.println(i); // if processed d is in form of p^k where p = prime number and k = integer
 		else System.out.println(d); // if processed d is the largest prime factor
 		
