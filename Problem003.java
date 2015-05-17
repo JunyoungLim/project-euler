@@ -25,7 +25,7 @@ public class Problem003
 	}
 	
 	
-	// universal solution for finding largest prime factor
+	// universal solution for finding largest prime factor : not necessary for this specific problem
 	public static int getLargestPrimeFactor(int n)
     	{
     		if (n == 1) return 1;	
