@@ -15,10 +15,11 @@ public class Problem003
 	public static void run()
 	{
 		long d = 600851475143L;
+		int i = 3;
 		
 		if (d%2 == 0) while (d%2 == 0) d /= 2;
+		if (d == 1) i = 4;
 		
-		int i = 3;
 		for ( ; i < Math.sqrt(d); i+=2)
 		{
 			if (d%i == 0)
