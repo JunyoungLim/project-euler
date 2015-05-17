@@ -15,8 +15,11 @@ public class Problem003
 	public static void run()
 	{
 		long d = 600851475143L;
-		int i = 3; // skip 2 because d is not an even number
-		for (int i=3; i < Math.sqrt(d); i+=2)
+		
+		if (d%2 == 0) while (d%2 == 0) d /= 2;
+		
+		int i = 3;
+		for ( ; i < Math.sqrt(d); i+=2)
 		{
 			if (d%i == 0)
 				while (d%i == 0) d /= i;
@@ -25,11 +28,10 @@ public class Problem003
 		if (d == 1) System.out.println(i); // if processed d is in form of p^k where p = prime number and k = integer
 		else System.out.println(d); // if processed d is the largest prime factor
 		
-		// The last if-else statement wasn't necessary for this specific problem
+		// The if-statement for division by 2 at the beginning of this code
+		// and the last if-else statement wasn't necessary for this specific problem
 		// but including the if-else block make it a universal solution
 		// that can be applied to any positive odd integer
-		// In order to do make it universal to any whole number (both odd and even)
-		// include division by 2 above the for-loop
 
 	}
 
