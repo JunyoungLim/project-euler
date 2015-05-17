@@ -14,11 +14,11 @@ public class Problem019
 {
 	public static void run()
 	{
-		int count = 0, day = 2;
+		int count = 0, day = 2; // modulus representation of days (modulo 7) : SMTWTFS == 0123456
 		
-		for (int y = 1901; y <= 2000; y++)
+		for (int y = 1901; y <= 2000; y++) // years
 		{
-			for (int m = 1; m <= 12; m++)
+			for (int m = 1; m <= 12; m++) // months
 			{
 				if (m == 4 || m == 6 || m == 9 || m == 11)
 					day += 30;
