@@ -44,7 +44,6 @@ public class Problem022 implements textFile.Texts
 		{
 			String line = br.readLine();
 			line = line.replace("\"", "");
-			line = line.replace(",", " ");
 			text = line.split(" ");
 		}
 		catch (IOException e)
@@ -58,5 +57,5 @@ public class Problem022 implements textFile.Texts
 
 
 // Answer is 871198282
-// Execution time is 0.035005436 seconds
+// Execution time is 0.027967796 seconds
 
