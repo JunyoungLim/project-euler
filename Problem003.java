@@ -15,7 +15,7 @@ public class Problem003
 	public static void run()
 	{
 		long d = 600851475143L;
-		for (int i=3; i < Math.sqrt(d); i+=2)
+		for (int i=3; i < Math.sqrt(d); i+=2) // skip 2 because d is not an even number
 		{
 			if (d%i == 0)
 				while (d%i == 0) d /= i;
