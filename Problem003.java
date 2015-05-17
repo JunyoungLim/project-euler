@@ -14,12 +14,14 @@ public class Problem003
 {
 	public static void run()
 	{
-	    long d = 600851475143L;
-	    for (int i=3; i < Math.sqrt(d); i+=2)
+		long d = 600851475143L;
+		for (int i=3; i < Math.sqrt(d); i+=2)
 		{
 			if (d%i == 0)
 				while (d%i == 0) d /= i;
 		}
+		int sqrt = (int)Math.sqrt(d);
+		if (d == sqrt*sqrt) System.out.println(sqrt);
 		System.out.println(d);
 
 	}
@@ -28,5 +30,5 @@ public class Problem003
 
 
 // Answer is 6857
-// Execution time is 0.002033269 seconds
+// Execution time is 7.68934E-4 seconds
 
