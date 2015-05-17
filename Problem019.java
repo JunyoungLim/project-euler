@@ -30,7 +30,7 @@ public class Problem019
 				else day += 31;
 				
 				day %= 7;
-				if (day == 0) count++;
+				if (day == 0) count++; // if it is sunday
 			}
 		}
 		System.out.println(count);
