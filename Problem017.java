@@ -40,7 +40,7 @@ public class Problem017
 		threeTemp += HUNDRED.length();
 		for (String u : UNIT)
 			threeDigit += u.length()*100 + threeTemp;
-		threeDigit += twoDigit;
+		threeDigit += twoDigit; // 1 to 99 (without any hundredth digit)
 		
 		System.out.println(fourDigit + threeDigit);
 	}
