@@ -16,7 +16,7 @@ import java.util.List;
 public class Problem024
 {
 	private static int OFF_ERROR = 1;
-	private static int limit = 1000000 - OFF_ERROR; // off-by-one error
+	private static int limit = 1000000 - OFF_ERROR; // off-by-one error : nth permutation == (n-1)th index
 	private static final int LENGTH = 10;
 	private static final int[] fact = fillFactorialArray(LENGTH);
 	private static List<Integer> digit = fillDigitList(LENGTH);
