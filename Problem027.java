@@ -62,18 +62,18 @@ public class Problem027
 	
 	//sieve of Eratosthenes
 	public static boolean[] primeList(int n)
-    {
-        boolean[] prime = new boolean[n+1];
-        Arrays.fill(prime, 2, prime.length, true);
-        for (int i=4; i < prime.length; i+=2) prime[i] = false;
-        for (int i=3, end = (int)Math.sqrt(n); i <= end; i+=2)
-        {
-            if (prime[i])
-                for (int j=i*i; j <= n; j+=2*i)
-                    prime[j] = false;
-        }
+	{
+	        boolean[] prime = new boolean[n+1];
+	        Arrays.fill(prime, 2, prime.length, true);
+	        for (int i=4; i < prime.length; i+=2) prime[i] = false;
+	        for (int i=3, end = (int)Math.sqrt(n); i <= end; i+=2)
+	        {
+	            if (prime[i])
+	                for (int j=i*i; j <= n; j+=2*i)
+	                    prime[j] = false;
+	        }
         return prime;
-    }
+	}
 }
 
 
