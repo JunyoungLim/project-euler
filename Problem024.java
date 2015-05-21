@@ -18,7 +18,6 @@ public class Problem024
 	private static int OFF_ERROR = 1;
 	private static int limit = 1000000 - OFF_ERROR; // off-by-one error : nth permutation == (n-1)th index
 	private static final int LENGTH = 10;
-	private static final int[] fact = fillFactorialArray(LENGTH);
 	private static List<Integer> digit = fillDigitList(LENGTH);
 	
 	public static void run()
@@ -27,7 +26,9 @@ public class Problem024
 		
 		for (int i=0; i < LENGTH; i++)
 		{
-			int fac = fact[fact.length-i-1];
+			int fac = 1;
+			for (int j=1; j <= LENGTH-i-1; j++) fac *= j;
+			
 			int div = limit/fac;
 			limit %= fac;
 			
@@ -37,21 +38,6 @@ public class Problem024
 		System.out.println(num);
 	}
 	
-	
-	//fill array of factorials : nth index with n!
-	public static int[] fillFactorialArray(int len)
-	{
-		int[] arr = new int[len];
-		for (int i = 0; i < len; i++)
-		{
-			int prod = 1;
-			for (int j=1; j <= i; j++) prod *= j;			
-			arr[i] = prod;
-		}
-		return arr;
-	}
-	
-	
 	//fill list of Integer that are available for permutation
 	public static List<Integer> fillDigitList(int len)
 	{
@@ -60,6 +46,7 @@ public class Problem024
 		return list;
 	}
 }
+
 
 
 
