@@ -72,7 +72,7 @@ public class Problem027
 	                for (int j=i*i; j <= n; j+=2*i)
 	                    prime[j] = false;
 	        }
-        return prime;
+        	return prime;
 	}
 }
 
