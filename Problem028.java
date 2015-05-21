@@ -16,7 +16,8 @@ public class Problem028
 	
 	public static void run()
 	{
-		int sum = 1, currentNum = 1;
+		int currentNum = 1;
+		int sum = currentNum;
 		
 		for (int i = 1; i <= LEN/2; i++)
 		{
