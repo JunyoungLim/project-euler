@@ -48,6 +48,9 @@ public class Problem027
 		return n;
 	}
 	
+	
+	
+	
 	// if the number is prime number
 	public static boolean isPrime(int n)
 	{
@@ -59,6 +62,9 @@ public class Problem027
 		}
 		return true;
 	}
+	
+	
+	
 	
 	//sieve of Eratosthenes
 	public static boolean[] primeList(int n)
