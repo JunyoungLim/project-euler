@@ -22,6 +22,7 @@ public class Problem029
 	    	// but find the total number of the values
 	    	// Double is precise enough to distinguish them from each other
 	    	// BigInteger is too heavy and inefficient to be used for this problem
+	    	
 		Set<Double> list = new HashSet<Double>();
 		
 		for (int a = 2; a <= 100; a++)
