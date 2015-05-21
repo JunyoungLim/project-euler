@@ -17,10 +17,11 @@ public class Problem029
 {
 	public static void run()
 	{
-	    // Double can be used in this problem
-	    // because we are not required to find exact values
-	    // but find the total number of the values
-	    // Double is precise enough to distinguish values : BigInteger is too heavy to be used for this problem
+		// Double can be used in this problem
+	    	// because we are not required to find exact values
+	    	// but find the total number of the values
+	    	// Double is precise enough to distinguish them from each other
+	    	// BigInteger is too heavy and inefficient to be used for this problem
 		Set<Double> list = new HashSet<Double>();
 		
 		for (int a = 2; a <= 100; a++)
