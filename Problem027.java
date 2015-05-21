@@ -25,7 +25,7 @@ public class Problem027
 		{
 			if (isPrime[b])
 			{
-				for (int a = -b; a < LIMIT; a+=2) // a = -b : quadratic num is always (+), a+= 2 : num is always odd
+				for (int a = -b; a < LIMIT; a+=2) // a = -b : quadratic num is always (+), a+=2 : num is odd
 				{
 					int temp = maxPrime(a,b);
 					if (temp > max)
