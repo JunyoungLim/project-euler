@@ -64,5 +64,5 @@ public class Problem024
 
 
 // Answer is 2783915460
-// Execution time is 0.001044451 seconds
+// Execution time is 9.00784E-4 seconds
 
