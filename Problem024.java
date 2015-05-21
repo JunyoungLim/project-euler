@@ -27,7 +27,8 @@ public class Problem024
 		for (int i=0; i < LENGTH; i++)
 		{
 			int fac = 1;
-			for (int j=1; j <= LENGTH-i-1; j++) fac *= j;
+			for (int j=1; j <= LENGTH-i-1; j++)
+				fac *= j;
 			
 			int div = limit/fac;
 			limit %= fac;
