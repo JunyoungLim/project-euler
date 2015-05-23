@@ -51,12 +51,7 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 		}
 		System.out.println(Math.max(Math.max(hor, ver), Math.max(dia1, dia2)));
 	}
-	
-	
-	
-	
-	
-	
+
 	
 	// String "text011" is stored in Texts interface - the path name depends on where you store the file in computer
 	// read in the text file containing 20 X 20 grid
@@ -82,5 +77,7 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 	}
 }
 
-// Answer is 70600674
-// Execution time is 0.003771644 seconds
+
+Answer is 70600674
+Execution time is 0.003771644 seconds
+
