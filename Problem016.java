@@ -26,6 +26,6 @@ public class Problem016
 
 
 
-// Answer is 1366
-// Execution time is 0.002681005 seconds
+Answer is 1366
+Execution time is 0.002681005 seconds
 
