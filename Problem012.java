@@ -42,6 +42,6 @@ public class Problem012
 
 
 
-// Answer is 76576500
-// Execution time is 0.008203672 seconds
+Answer is 76576500
+Execution time is 0.008203672 seconds
 
