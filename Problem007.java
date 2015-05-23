@@ -39,5 +39,5 @@ public class Problem007
 
 
 
-// Answer is 104743
-// Execution time is 0.012449134 seconds
+Answer is 104743
+Execution time is 0.012449134 seconds
