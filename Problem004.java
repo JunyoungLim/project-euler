@@ -36,6 +36,6 @@ public class Problem004
 }
 
 
-// Answer is 906609
-// Execution time is 0.020624791 seconds
+Answer is 906609
+Execution time is 0.020624791 seconds
 
