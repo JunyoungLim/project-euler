@@ -58,8 +58,8 @@ public class Problem018 implements textFile.Texts
 
 
 
-// Answer is 1074
-// Execution time is 0.003042578 seconds
+Answer is 1074
+Execution time is 0.003042578 seconds
 
-// Exactly same solution as Problem067
+Exactly same solution as Problem067
 
