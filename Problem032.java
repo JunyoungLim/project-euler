@@ -49,6 +49,6 @@ public class Problem032
 
 
 
-45228
+Answer is 45228
 Execution time is 0.019576457 seconds
 
