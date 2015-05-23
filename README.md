@@ -11,4 +11,6 @@ Please notify me when you are going to use part of my codes in your programs.
 **Update** solution to Problem 14 has been uploaded.  
 
 Unsolved : 33  
-Solved but inefficient (thus not uploaded yet) : 23, 31
+Solved but inefficient : 23, 31  
+  
+Inefficient solutions will not be posted until they are finally revised.
