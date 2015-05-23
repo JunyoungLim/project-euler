@@ -21,7 +21,7 @@ public class Problem014
 		int num = 0, maxLength = 0;
 		
 		collatz[1] = 1;
-		for (int i = 2; i <= LIMIT; i++)
+		for (int i = LIMIT/2 + 1; i <= LIMIT; i++)
 		{
 			fillCollatz(i);
 			if (collatz[i] >= maxLength)
@@ -29,7 +29,7 @@ public class Problem014
 				maxLength = collatz[i];
 				num = i;
 			}
-		}		
+		}
 		System.out.println(num);
 	}
 	
@@ -46,12 +46,20 @@ public class Problem014
 				for ( ; cur >= MAX; count++)
 				{
 					if (cur%2 == 0) cur /= 2;
-					else cur = cur*3 + 1;
+					else
+					{
+						cur += (cur + 1)/2;
+						count++;
+					}
 				}
 				current = (int)cur;
 				count--;
 			}
-			else current = current*3 + 1;
+			else
+			{
+				current += (current + 1)/2;
+				count++;
+			}
 		}
 		collatz[n] = collatz[current] + count;
 	}
@@ -59,6 +67,7 @@ public class Problem014
 
 
 
+
 // Answer is 837799
-// Execution time is 0.080583844 seconds
+// Execution time is 0.038619629 seconds
 
