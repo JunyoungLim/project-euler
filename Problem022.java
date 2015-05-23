@@ -56,6 +56,6 @@ public class Problem022 implements textFile.Texts
 
 
 
-// Answer is 871198282
-// Execution time is 0.027967796 seconds
+Answer is 871198282
+Execution time is 0.027967796 seconds
 
