@@ -65,7 +65,6 @@ public class Problem027
 	
 	
 	
-	
 	//sieve of Eratosthenes
 	public static boolean[] primeList(int n)
 	{
@@ -84,6 +83,6 @@ public class Problem027
 
 
 
-// Answer is -59231
-// Execution time is 0.02057711 seconds
+Answer is -59231
+Execution time is 0.02057711 seconds
 
