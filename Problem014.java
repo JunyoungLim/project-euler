@@ -33,6 +33,8 @@ public class Problem014
 		System.out.println(num);
 	}
 	
+	
+	// fill the collatz array : memorization
 	public static void fillCollatz(int n)
 	{
 		int count = 0;
