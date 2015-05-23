@@ -23,16 +23,7 @@ public class Problem003
 		}
 		System.out.println(d);
 	}
-	
-	
-// Answer is 6857
-// Execution time is 0.002068384 seconds	
-	
-	
-	
-	
-	
-	
+
 	
 	// universal solution for finding largest prime factor : not necessary for this specific problem
 	public static int getLargestPrimeFactor(int n)
@@ -51,5 +42,8 @@ public class Problem003
 		if (n == 1) return i;
 		return n;
     	}
-
 }
+
+
+Answer is 6857
+Execution time is 0.002068384 seconds
