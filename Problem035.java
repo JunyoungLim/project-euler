@@ -39,19 +39,19 @@ public class Problem035
 	}
 	
 	public static boolean[] primeList(int n)
-    {
-        //sieve of Eratosthenes
-        boolean[] prime = new boolean[n+1];
-        java.util.Arrays.fill(prime, 2, prime.length, true);
-        for (int i=4; i < prime.length; i+=2) prime[i] = false;
-        for (int i=3, end = (int)Math.sqrt(n); i <= end; i+=2)
-        {
-            if (prime[i])
-                for (int j=i*i; j <= n; j+=2*i)
-                    prime[j] = false;
-        }
-        return prime;
-    }
+    	{
+        	//sieve of Eratosthenes
+        	boolean[] prime = new boolean[n+1];
+        	java.util.Arrays.fill(prime, 2, prime.length, true);
+        	for (int i=4; i < prime.length; i+=2) prime[i] = false;
+        	for (int i=3, end = (int)Math.sqrt(n); i <= end; i+=2)
+        	{
+        	 if (prime[i])
+                	for (int j=i*i; j <= n; j+=2*i)
+                	 prime[j] = false;
+        	}
+        	return prime;
+	 }
 }
 
 
