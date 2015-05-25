@@ -1,6 +1,6 @@
 # Project-Euler
 Project Euler Solutions by a High School Student in California  
-All solutions up to problem 32  
+All solutions up to problem 34  
 #  
   
 About Project Euler https://projecteuler.net/about  
@@ -11,7 +11,7 @@ Please notify me when you are going to use part of my codes in your programs.
   
 **Update** solution to Problem 14 has been uploaded.  
 
-Unsolved : 33  
+Unsolved :   
 Solved but inefficient : 23, 31  
   
 Inefficient solutions will not be posted until they are finally revised.
