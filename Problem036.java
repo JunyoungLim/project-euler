@@ -30,7 +30,7 @@ public class Problem036
 	
 	public static void checkPalindromePair(int num)
 	{
-		int p1 = num, p2 = num*10 + num%10; // two palindromic numbers one with odd number of digits and the other with even
+		int p1 = num, p2 = num*10 + num%10; // two palindromic numbers one with odd number of digits and other with even
 		int n1 = num/10, n2 = num/10;
 		
 		while (n1 > 0)
