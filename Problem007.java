@@ -28,6 +28,7 @@ public class Problem007
 	public static boolean isPrime(int n)
 	{
 		if (n == 1) return false;
+		if (n == 2) return true;
 		else if (n%2 == 0) return false;
 		for (int i=3, end = (int)Math.sqrt(n); i <= end; i+=2)
 		{
