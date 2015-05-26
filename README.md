@@ -9,9 +9,9 @@ Project Euler Problems https://projecteuler.net/archives
 I wrote down answer and best execution time for each code at the bottom  
 Please notify me when you are going to use part of my codes in your programs.  
   
-**Update** solution to Problem 33, 34, 35, and 36 have been uploaded.  
+**Update** solution to Problem 38 and 39 have been uploaded.  
 
 Unsolved :   
-Solved but inefficient : 23, 31  
+Solved but inefficient : 23, 31, 37  
   
 Inefficient solutions will not be posted until they are finally revised.
