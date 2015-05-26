@@ -1,6 +1,6 @@
 # Project-Euler
 Project Euler Solutions by a High School Student in California  
-All solutions up to problem 36  
+All solutions up to problem 39  
 #  
   
 About Project Euler https://projecteuler.net/about  
