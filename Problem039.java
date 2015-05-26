@@ -38,8 +38,8 @@ public class Problem039
 			{
 				if (gcd(m, n) != 1) continue; // m and n must be coprime
 				
-				int p = 2*m*(m+n);
-				for (int k = 1; p*k <= 1000; k++) // fill primitive and non-primitive triplets for given perimeter
+				int p = 2*m*(m+n); // primitive triplet perimeter
+				for (int k = 1; p*k <= 1000; k++) // fill non-primitive triplets for given perimeter
 					triplet[p*k]++;
 			}
 		}
