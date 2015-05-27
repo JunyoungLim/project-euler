@@ -15,7 +15,6 @@ import java.util.List;
  */
 public class Problem041
 {
-	private static final char[] DIGIT = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
 	private static final int LENGTH = 7;
 	private static int[] fact = new int[10];
 	private static final List<Integer> digit = new ArrayList<Integer>();
