@@ -1,6 +1,9 @@
 # Project-Euler
 Project Euler Solutions by a High School Student in California  
 All solutions up to problem 39  
+  
+All codes based on Java
+All programs run on Eclipse
 #  
   
 About Project Euler https://projecteuler.net/about  
