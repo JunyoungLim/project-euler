@@ -57,5 +57,6 @@ public class Problem042 implements textFile.Texts
 
 
 Answer is 162
+Algorithm execution time is 0.004671288 seconds
 Total Execution time is 0.014992408 seconds
 
