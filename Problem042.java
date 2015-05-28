@@ -19,7 +19,7 @@ public class Problem042 implements textFile.Texts
 {
 	private static final String[] name = read(); // Reading takes 0.01032112 seconds ( ~ 10 ms )
 	
-	// Algorithm execution time is 0.005369178 seconds
+	// Algorithm execution time is 0.005369178 seconds ( ~ 5 ms )
 	public static void run()
 	{
 		int count = 0;
