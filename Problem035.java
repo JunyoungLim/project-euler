@@ -57,5 +57,5 @@ public class Problem035
 
 
 Answer is 55
-Execution time is 0.051694621 seconds
+Execution time is 51.694621 ms
 
