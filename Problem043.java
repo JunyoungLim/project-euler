@@ -45,7 +45,7 @@ public class Problem043
 	}
 	
 	
-	// go to next step ( 17 - 13 - 11 - 7 - 5 - 3 - 2)
+	// go to next step ( 17 - 13 - 11 - 7 - 5 - 3 - 2 )
 	public static void goNext(String s, int p)
 	{		
 		String num;
