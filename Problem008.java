@@ -38,5 +38,5 @@ public class Problem008
 
 
 Answer is 23514624000
-Execution time is 0.001274597 seconds
+Execution time is 1.274597 ms
 
