@@ -1,6 +1,6 @@
 # Project-Euler
 Project Euler Solutions by a High School Student in California  
-All solutions up to problem 41  
+All solutions up to problem 43  
   
 All codes based on Java  
 All programs run on Eclipse
@@ -12,7 +12,7 @@ Project Euler Problems https://projecteuler.net/archives
 I wrote down answer and best execution time for each code at the bottom  
 Please notify me when you are going to use part of my codes in your programs.  
   
-**Update** solution to Problem 38 and 39 have been uploaded.  
+**Update** solution to Problem 43 has been uploaded.  
 
 Unsolved :   
 Solved but inefficient : 23, 31, 37  
