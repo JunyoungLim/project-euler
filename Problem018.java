@@ -59,7 +59,7 @@ public class Problem018 implements textFile.Texts
 
 
 Answer is 1074
-Execution time is 0.003042578 seconds
+Execution time is 3.042578 ms
 
 Exactly same solution as Problem067
 
