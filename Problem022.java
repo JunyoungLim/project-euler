@@ -57,5 +57,5 @@ public class Problem022 implements textFile.Texts
 
 
 Answer is 871198282
-Execution time is 0.027967796 seconds
+Execution time is 27.967796 ms
 
