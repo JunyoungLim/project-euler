@@ -47,5 +47,5 @@ public class Problem040
 
 
 Answer is 210
-Execution time is 0.001826042 seconds
+Execution time is 1.826042 ms
 
