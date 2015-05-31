@@ -34,5 +34,5 @@ public class Problem005
 
 
 Answer is 232792560
-Execution time is 0.002087348 seconds
+Execution time is 2.087348 ms
 
