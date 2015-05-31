@@ -68,6 +68,6 @@ public class Problem039
 
 
 Answer is 840
-Execution time is 0.777626 ms
+Execution time is .777626 ms
 
 
