@@ -50,5 +50,5 @@ public class Problem032
 
 
 Answer is 45228
-Execution time is 0.019576457 seconds
+Execution time is 19.576457 ms
 
