@@ -48,6 +48,6 @@ public class Problem017
 
 
 Answer is 21124
-Execution time is 0.002075885 seconds
+Execution time is 2.075885 ms
 
 
