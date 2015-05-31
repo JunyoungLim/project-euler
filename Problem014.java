@@ -71,5 +71,5 @@ public class Problem014
 
 
 Answer is 837799
-Execution time is 0.038619629 seconds
+Execution time is 38.619629 ms
 
