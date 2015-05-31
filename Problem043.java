@@ -66,7 +66,7 @@ public class Problem043
 		else if (p == 4)
 		{
 			if (available[5]) // because d6 cannot be zero, only choice available is 5
-			{                 // if d6 is 0, then d6d7d8 will be 011, 022, ... (multiple of 11) which isn't pandigital
+			{                 // if d6 = 0, then d6d7d8 = 011, 022, ... (multiple of 11) which isn't pandigital
 				num = "5" + s;
 				available[5] = false;
 				if (Integer.parseInt(num.substring(0,3)) % n == 0) goNext(num, p - 1);
