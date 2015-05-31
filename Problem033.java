@@ -48,5 +48,5 @@ public class Problem033
 
 
 Answer is 100
-Execution time is 7.71314E-4 seconds
+Execution time is .771314 ms
 
