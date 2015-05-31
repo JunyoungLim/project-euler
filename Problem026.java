@@ -45,5 +45,5 @@ public class Problem026
 
 
 Answer is 983
-Execution time is 7.71709E-4 seconds
+Execution time is .771709 ms
 
