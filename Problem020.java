@@ -33,5 +33,5 @@ public class Problem020
 
 
 Answer is 648
-Execution time is 0.002634032 seconds
+Execution time is 2.634032 ms
 
