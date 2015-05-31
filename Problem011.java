@@ -80,5 +80,5 @@ public class Problem011 implements textFile.Texts // all file paths are stored
 
 
 Answer is 70600674
-Execution time is 0.003771644 seconds
+Execution time is 3.771644 ms
 
