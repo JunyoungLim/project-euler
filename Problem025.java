@@ -35,5 +35,5 @@ public class Problem025
 
 
 Answer is 4782
-Execution time is 0.005803691 seconds
+Execution time is 5.803691 ms
 
