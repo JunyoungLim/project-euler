@@ -29,6 +29,6 @@ public class Problem001
 
 
 Answer is 233168
-Execution time is 0.000803676 seconds
+Execution time is .803676 ms
 
 
