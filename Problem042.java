@@ -17,9 +17,9 @@ import java.io.IOException;
  */
 public class Problem042 implements textFile.Texts
 {
-	private static final String[] name = read(); // Reading takes 0.01032112 seconds ( ~ 10 ms )
+	private static final String[] name = read(); // Reading takes ~ 10 ms
 	
-	// Algorithm execution time is 0.004671288 seconds ( ~ 4.67 ms )
+	// Algorithm execution time is ~ 4.67 ms
 	public static void run()
 	{
 		int count = 0;
@@ -57,6 +57,6 @@ public class Problem042 implements textFile.Texts
 
 
 Answer is 162
-Algorithm execution time is 0.004671288 seconds
-Total Execution time is 0.014992408 seconds
+Algorithm execution time is 4.671288 ms
+Total Execution time is 14.992408 ms
 
