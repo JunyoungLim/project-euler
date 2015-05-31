@@ -51,5 +51,5 @@ public class Problem013 implements textFile.Texts
 
 
 Answer is 5537376230
-Execution time is 0.006157391 seconds
+Execution time is 6.157391 ms
 
