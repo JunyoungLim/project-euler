@@ -44,5 +44,5 @@ public class Problem034
 
 
 Answer is 40730
-Execution time is 14.830625 ms
+Execution time is 14.765319 ms
 
