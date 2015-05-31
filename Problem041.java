@@ -102,5 +102,5 @@ public class Problem041
 
 
 Answer is 7652413
-Execution time is 0.001623937 seconds
+Execution time is 1.623937 ms
 
