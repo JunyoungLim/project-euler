@@ -31,6 +31,6 @@ public class Problem009
 
 
 Answer is 31875000
-Execution time is 0.001809455 seconds
+Execution time is 1.809455 ms
 
 
