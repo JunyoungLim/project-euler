@@ -85,5 +85,5 @@ public class Problem027
 
 
 Answer is -59231
-Execution time is 0.02057711 seconds
+Execution time is 20.57711 ms
 
