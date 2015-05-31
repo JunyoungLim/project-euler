@@ -30,6 +30,5 @@ public class Problem015
 
 
 Answer is 137846528820
-Execution time is 0.003516281 seconds
-
+Execution time is 3.516281 ms
 
