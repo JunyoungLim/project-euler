@@ -22,7 +22,7 @@ public class Problem009
 				if (c>0 && a*a + b*b == c*c)
 				{
 					System.out.println(a*b*c);
-					break;
+					return;
 				}
 			}
 		}
@@ -31,6 +31,6 @@ public class Problem009
 
 
 Answer is 31875000
-Execution time is 1.809455 ms
+Execution time is 1.722996 ms
 
 
