@@ -38,7 +38,7 @@ public class Problem038
 			{
 				System.out.println(sum);
 				notFound = false;
-				break;
+				return;
 			}
 		}
 		
@@ -65,5 +65,5 @@ public class Problem038
 
 
 Answer is 932718654
-Execution time is 6.067857 ms
+Execution time is 5.01978 ms
 
