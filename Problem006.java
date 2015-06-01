@@ -27,4 +27,4 @@ public class Problem006
 
 
 Answer is 25164150
-Execution time is 0.789075 ms
+Execution time is .789075 ms
