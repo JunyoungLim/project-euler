@@ -17,4 +17,9 @@ Please notify me when you are going to use part of my codes in your programs.
 Unsolved :   
 Solved but inefficient : 23, 31, 37  
   
-Inefficient solutions will not be posted until they are finally revised.
+Inefficient solutions will not be posted until they are finally revised.  
+
+**Spoiler Alert**  
+Don't look up the solutions before you actually try them by yourself!  
+This blog suggests one of many different possible ways to solve problems,  
+and looking at solutions before trying wouldn't be worth anything.
