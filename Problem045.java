@@ -12,10 +12,6 @@ package problems;
  */
 public class Problem045
 {
-
-	/**
-	 * 
-	 */
 	private static int penta = 0, hexa = 0, addp = 1, addh = 1;
 	
 	public static void run()
