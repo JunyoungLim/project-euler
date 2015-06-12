@@ -14,6 +14,11 @@ public class Problem045
 {
 	private static int penta = 0, hexa = 0, addp = 1, addh = 1;
 	
+	// All triangle numbers are not hexagonal number
+	// but all hexagonal numbers are triangle number
+	// Therefore, if we find a hexagonal number, then that number is triangle number for sure
+	// no need to check for triangle number
+	
 	public static void run()
 	{
 		loopThrough(); // return 1
