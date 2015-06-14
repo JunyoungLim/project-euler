@@ -3,8 +3,6 @@
  */
 package problems;
 
-import java.util.Arrays;
-
 /**
  * Problem046.java
  * @author Ainodyne
