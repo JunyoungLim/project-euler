@@ -1,6 +1,6 @@
 # Project-Euler
 Project Euler Solutions by a High School Student in California  
-All solutions up to problem 45  
+All solutions up to problem 46  
   
 All codes based on Java  
 All programs run on Eclipse
