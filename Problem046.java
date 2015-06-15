@@ -64,17 +64,21 @@ public class Problem046
 	
 	public static boolean isP(int n)
 	{
-		for (int i = 3, end = (int)Math.sqrt(n); i <= end; i+=2)
-		{
-			if (n % i == 0) return false;
-		}
-		return true;
-	}
+    		if (n % 3 == 0) return false;
+    		else
+    		{
+    			for (int i = 5, end = (int)Math.sqrt(n); i <= end; i += 6)
+    			{
+    				if (n % i == 0 || n % (i + 2) == 0) return false;
+    			}
+    		}
+    		return true;
+    	}
 }
 
 
 Answer is 5777
-Execution time is 1.894309 ms
+Execution time is 1.878125 ms
 
 
 
