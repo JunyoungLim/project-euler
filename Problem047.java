@@ -83,7 +83,7 @@ public class Problem047
 }
 
 
-// Answer is 134043
-// Execution time is 28.291475 ms
+Answer is 134043
+Execution time is 28.291475 ms
 
 
