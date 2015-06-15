@@ -12,11 +12,16 @@ package problems;
  */
 public class Problem046
 {
+	// Because we don't know the limit of our calculation
+	// we cannot make a sieve with definite length
+	// I made a prime array with length 100 and gradually increased limit by factor of 10
+	// 2D-array has first row of primality, and second row of whether the number is already checked
+	
 	private static boolean[][] isPrime = new boolean[2][100];
 	
 	public static void run()
 	{
-		for (int i = 35; ; i+=2)
+		for (int i = 35; ; i+=2) // all number up to 33 is explained in the problem
 		{
 			if (!isGoldbach(i))
 			{
