@@ -27,18 +27,20 @@ public class Problem007
 	
 	public static boolean isPrime(int n)
 	{
-		if (n == 1) return false;
-		if (n == 2) return true;
-		else if (n%2 == 0) return false;
-		for (int i=3, end = (int)Math.sqrt(n); i <= end; i+=2)
-		{
-			if (n%i == 0) return false;
-		}
-		return true;
+		if (n <= 3) return n > 1;
+	    	else if (n % 2 == 0 || n % 3 == 0) return false;
+	    	else
+	    	{
+	    		for (int i = 5, end = (int)Math.sqrt(n); i <= end; i += 6)
+	    		{
+	    			if (n % i == 0 || n % (i + 2) == 0) return false;
+	    		}
+	    	}
+	    	return true;
 	}
 }
 
 
 
 Answer is 104743
-Execution time is 12.449134 ms
+Execution time is 8.283012 ms
