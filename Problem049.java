@@ -43,23 +43,23 @@ public class Problem049
 	
 	public static boolean isPermutation(int n, int m)
 	{
-		int[] arr = new int[10];
+		int[] digit = new int[10];
 		
 		while (n > 0)
 		{
-			arr[n % 10]++;
+			digit[n % 10]++;
 			n /= 10;
 		}
 		
 		while (m > 0)
 		{
-			arr[m % 10]--;
+			digit[m % 10]--;
 			m /= 10;
 		}
 		
-		for (int i = 0; i < arr.length; i++)
+		for (int i = 0; i < digit.length; i++)
 		{
-			if (arr[i] != 0) return false;
+			if (digit[i] != 0) return false;
 		}
 		return true;
 	}
@@ -82,7 +82,7 @@ public class Problem049
 
 
 Answer is 296962999629
-Execution time is 6.169255 ms
+Execution time is 6.057546 ms
 
 
 
