@@ -23,7 +23,7 @@ public class Problem049
 		{
 			if (isPrime[i])
 			{
-				for (int j = 2, end = (LIMIT-i)/2; j < end; j+=2)
+				for (int j = 2, end = (LIMIT-i)/2; j < end; j+=2) // All sequences are prime; increment by 2
 				{
 					int seq1 = i + j, seq2 = seq1 + j;
 					
