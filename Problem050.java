@@ -71,6 +71,7 @@ public class Problem050
 
 
 Answer is 997651
-Execution time is 15.181366 ms
+Total Execution time is 15.181366 ms
+Algorithm execution time excluding prime generation is 1.298272 ms
 
 
