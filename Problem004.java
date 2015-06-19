@@ -15,13 +15,13 @@ public class Problem004
 	public static void run()
 	{
 		int ans = 0;
-		for (int i = 100; i < 1000; i++)
+		for (int i = 999; i >= Math.sqrt(ans); i--)
 		{
-			for (int j = i; j < 1000; j++)
+			for (int j = i; j >= 100; j--)
 			{
 				int temp = i*j;
-				if (temp > ans && isPalin(""+temp)) ans = temp;
-				
+				if (temp < ans) break;
+				else if (isPalin(String.valueOf(temp))) ans = temp;
 			}
 		}
 		System.out.println(ans);
@@ -37,5 +37,5 @@ public class Problem004
 
 
 Answer is 906609
-Execution time is 20.624791 ms
+Execution time is 6.572671 ms
 
