@@ -12,7 +12,6 @@ package problems;
  */
 public class Problem052
 {
-	//Look up outer loop that might improve it
 	public static void run()
 	{
 		boolean notFound = true;
