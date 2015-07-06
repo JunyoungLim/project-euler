@@ -27,7 +27,7 @@ public class Problem031
 }
 
 
-73682
+Answer is 73682
 Execution time is 0.328022 ms
 
 
