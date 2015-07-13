@@ -15,10 +15,6 @@ import java.util.List;
  */
 public class Problem037
 {
-
-	/**
-	 * 
-	 */
 	private static final int[] DIGIT = {1, 3, 7, 9};
 	
 	public static void main(String[] args)
@@ -29,7 +25,7 @@ public class Problem037
 		
 		int sum = 23 + 53;
 		
-		for (int pow = 10, start = 0, count = 2, end = list.size(); count < 11; start = end, end = list.size(), pow *= 10)
+		for (int pow = 10, start = 0, count = 2, end = 2; count < 11; start = end, end = list.size(), pow *= 10)
 		{
 			for (int i = start; i < end; i++)
 			{
