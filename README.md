@@ -15,7 +15,7 @@ Please notify me when you are going to use part of my codes in your programs.
 **Update** solution to Problem 31 has been uploaded.  
 
 Unsolved : 44   
-Solved but inefficient : 23, 37  
+Solved but inefficient :   
   
 Inefficient solutions will not be posted until they are finally revised.  
 
