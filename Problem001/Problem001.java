@@ -5,7 +5,7 @@ package problems;
 
 /**
  * Problem001.java
- * @author Ainodyne
+ * @author JunyoungLim
  *
  * @version 1.00
  * @since Dec 14, 2014
@@ -27,8 +27,9 @@ public class Problem001
 	
 }
 
-
-Answer is 233168
-Execution time is .803676 ms
+/*
+* Answer is 233168
+* Execution time is .803676 ms
+*/
 
 
