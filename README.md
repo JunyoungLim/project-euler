@@ -1,8 +1,8 @@
 # Project-Euler
 Solutions to Computational and Mathematical problems in Project Euler.
-All solutions up to problem 50  
 
-Each subdirectory is organized based on the language each solution is written.
+Primary focus of the solutions are on the algorithm efficiencies on both execution time and space.
+
 #  
   
 About Project Euler https://projecteuler.net/about  
