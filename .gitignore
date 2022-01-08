@@ -1,3 +1,6 @@
 # IDE specific
 .idea/
 Project-Euler.iml
+
+# build outputs
+out/
