@@ -1,4 +1,4 @@
-package problem002;
+package problems.p002;
 
 /**
  * Problem002.java
@@ -7,12 +7,10 @@ package problem002;
  * @version 1.00
  * @since Dec 14, 2014
  */
-public class Problem002
-{
+public class Problem002 {
 	private static final int LIMIT = 4000000;
 	
-	public static void run()
-	{
+	public static void main(String[] args) {
 		int f = 1;
 		int s = 1;
 		int fibo = 0;
@@ -27,8 +25,3 @@ public class Problem002
 		System.out.println(sum);
 	}
 }
-
-
-// Answer is 4613732
-// Execution time is .797755 ms
-

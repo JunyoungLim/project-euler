@@ -1,7 +1,7 @@
 /**
  * 
  */
-package problems;
+package problems.p003;
 
 /**
  * Problem003.java
@@ -10,10 +10,8 @@ package problems;
  * @version 1.00
  * @since Dec 14, 2014
  */
-public class Problem003
-{
-	public static void run()
-	{
+public class Problem003 {
+	public static void main(String[] args) {
 		long d = 600851475143L;
 		
 		for (int i = 3; i < Math.sqrt(d); i+=2)
@@ -24,11 +22,9 @@ public class Problem003
 		System.out.println(d);
 	}
 
-	
-	// universal solution for finding largest prime factor : not necessary for this specific problem
-	public static int getLargestPrimeFactor(int n)
-    	{
-    		if (n == 1) return 1;	
+	// universal solution for finding the largest prime factor : not necessary for this specific problem
+	public static int getLargestPrimeFactor(int n) {
+		if (n == 1) return 1;
 		if (n%2 == 0) while (n%2 == 0) n /= 2;
 		if (n == 1) return 2;
 		
@@ -43,8 +39,3 @@ public class Problem003
 		return n;
     	}
 }
-
-
-// Answer is 6857
-// Execution time is 2.068384 ms
-

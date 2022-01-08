@@ -1,9 +1,7 @@
-/**
- * 
- */
-package Problem011;
+package problems.p011;
 
-import util.Utils;
+import utils.Benchmark;
+import utils.FileIO;
 
 /**
  * Problem011.java
@@ -16,9 +14,11 @@ public class Problem011
 {
 	private static final int N = 20;
 
-	public static void main(String[] args)
-	{
-		int[][] grid = Utils.readMatrix(N, Problem011.class.getResource("grid.txt"));
+	public static void main(String[] args) {
+		System.out.println(Benchmark.run(new Problem011()::solve));
+	}
+	public void solve() {
+		int[][] grid = FileIO.readMatrix(N, "p011", "grid.txt");
 		int limit = grid.length-3;
 		int hor=0, ver=0, dia1=0, dia2 =0;
 		

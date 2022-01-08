@@ -1,15 +1,15 @@
 package Problem345;
 
 import java.util.Objects;
-import util.Utils;
+//import utils.Utils;
 
 public class Problem345 {
   
   private static final int N = 15;
 
   public static void main(String[] args) {
-    int[][] matrix = Utils.readMatrix(N,
-        Objects.requireNonNull(Problem345.class.getResource("matrix.txt")));
+    int[][] matrix = new int[1][1]; //Utils.readMatrix(N,
+        //Objects.requireNonNull(Problem345.class.getResource("matrix.txt")));
     int[] y = new int[N];
     for (int i = 0; i < N; i++) {
       y[i] = i;
