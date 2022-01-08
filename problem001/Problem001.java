@@ -1,7 +1,4 @@
-/**
- * 
- */
-package problems;
+package problem001;
 
 /**
  * Problem001.java
@@ -22,6 +19,6 @@ public class Problem001 {
 	public static int sumMultiple(int divisor, int num) {
 		int last = num / divisor;
   	int sum = (last * (last + 1)) / 2;
-  	return sum*divisor;
+  	return sum * divisor;
 	}
 }
