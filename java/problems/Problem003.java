@@ -1,7 +1,7 @@
 /**
  * 
  */
-package problems.p003;
+package problems;
 
 /**
  * Problem003.java

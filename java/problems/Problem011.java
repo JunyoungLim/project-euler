@@ -1,4 +1,4 @@
-package problems.p011;
+package problems;
 
 import utils.Benchmark;
 import utils.FileIO;
@@ -17,8 +17,9 @@ public class Problem011
 	public static void main(String[] args) {
 		System.out.println(Benchmark.run(new Problem011()::solve));
 	}
+
 	public void solve() {
-		int[][] grid = FileIO.readMatrix(N, "p011", "grid.txt");
+		int[][] grid = FileIO.readMatrix(N, "p011.txt");
 		int limit = grid.length-3;
 		int hor=0, ver=0, dia1=0, dia2 =0;
 		

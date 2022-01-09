@@ -1,6 +1,6 @@
 # IDE specific
-.idea/
-Project-Euler.iml
+**/.idea/
+**/Project-Euler.iml
 
 # build outputs
-out/
+**/out/

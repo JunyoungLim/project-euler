@@ -1,7 +1,6 @@
-package Problem345;
+package problems;
 
-import java.util.Objects;
-//import utils.Utils;
+//import Java.problems.utils.Utils;
 
 public class Problem345 {
   
@@ -9,7 +8,7 @@ public class Problem345 {
 
   public static void main(String[] args) {
     int[][] matrix = new int[1][1]; //Utils.readMatrix(N,
-        //Objects.requireNonNull(Problem345.class.getResource("matrix.txt")));
+        //Objects.requireNonNull(Problem345.class.getResource("p345.txt")));
     int[] y = new int[N];
     for (int i = 0; i < N; i++) {
       y[i] = i;

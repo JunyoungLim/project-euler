@@ -1,7 +1,7 @@
 # Project-Euler
 ![Project Euler Profile](https://projecteuler.net/profile/JaredJunyoungLim.png)
 
-Solutions to Computational and Mathematical problems in Project Euler.
+Solutions to Computational and Mathematical java.problems in Project Euler.
 
 Primary focus of the solutions are on the algorithm efficiencies on both execution time and space.
 

@@ -7,10 +7,10 @@ import java.nio.file.Paths;
 
 public class FileIO {
   private static final String baseDir = System.getProperty("user.dir");
-  private static final String problemsDir = Paths.get(baseDir, "problems").toString();
+  private static final String resourcesDir = Paths.get(baseDir, "resources").toString();
 
-  public static int[][] readMatrix(int N, String packageName, String fileName) {
-    String filePath = Paths.get(problemsDir, packageName, fileName).toString();
+  public static int[][] readMatrix(int N, String fileName) {
+    String filePath = Paths.get(resourcesDir, fileName).toString();
     int[][] text = new int[N][N];
     try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
       String line;

@@ -1,4 +1,4 @@
-package problems.p001;
+package problems;
 
 /**
  * Problem001.java
