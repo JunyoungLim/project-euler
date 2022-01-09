@@ -9,7 +9,9 @@ public class Problem686 {
   public static void main(String[] args) {
     int j = 0;
     for (int count = 0; count < N; j++) {
-      if (isBound(j)) count++;
+      if (isBound(j)) {
+        count++;
+      }
     }
     j--;
     System.out.println(j);

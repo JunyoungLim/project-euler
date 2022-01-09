@@ -11,6 +11,7 @@ public class Problem684 {
   public static void main(String[] args) {
     sSequence(fibSequence(N)[N]);
   }
+
   public static void madin(String[] args) {
     long[] fib = fibSequence(N);
     long sum = 0;
@@ -57,7 +58,7 @@ public class Problem684 {
 
   private static long[] fibSequence(int n) {
     long[] fib = new long[n + 1];
-    fib[1] =  1;
+    fib[1] = 1;
     for (int i = 2; i <= n; i++) {
       fib[i] = fib[i - 2] + fib[i - 1];
     }

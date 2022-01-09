@@ -3,12 +3,12 @@ package problems;
 //import Java.problems.utils.Utils;
 
 public class Problem345 {
-  
+
   private static final int N = 15;
 
   public static void main(String[] args) {
     int[][] matrix = new int[1][1]; //Utils.readMatrix(N,
-        //Objects.requireNonNull(Problem345.class.getResource("p345.txt")));
+    //Objects.requireNonNull(Problem345.class.getResource("p345.txt")));
     int[] y = new int[N];
     for (int i = 0; i < N; i++) {
       y[i] = i;
@@ -24,7 +24,9 @@ public class Problem345 {
           maxJ = j;
         }
       }
-      if (maxGain <= 0) continue;
+      if (maxGain <= 0) {
+        continue;
+      }
       int temp = y[maxJ];
       y[maxJ] = y[i];
       y[i] = temp;
