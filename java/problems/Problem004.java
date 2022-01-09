@@ -32,7 +32,7 @@ public class Problem004 implements Solution {
     return String.valueOf(ans);
   }
 
-  public boolean isPalindrome(int n) {
+  private boolean isPalindrome(int n) {
     if (n < 0) return false;
     if (n == 0) return true;
     int divisor = (int) Math.pow(10, (int) Math.log10(n));
@@ -45,7 +45,7 @@ public class Problem004 implements Solution {
     return true;
   }
 
-  public boolean isPalindromeArray(int n) {
+  private boolean isPalindromeArray(int n) {
     if (n < 0) return false;
     if (n == 0) return true;
     int[] num = new int[(int) Math.log10(n) + 1];
@@ -58,7 +58,7 @@ public class Problem004 implements Solution {
     return true;
   }
 
-  public boolean isPalindromeString(String n) {
+  private boolean isPalindromeString(String n) {
     return (new StringBuffer(n).reverse().toString().equals(n));
   }
 
