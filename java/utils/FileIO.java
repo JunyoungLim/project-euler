@@ -35,6 +35,7 @@ public class FileIO {
     try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
       String line;
       while ((line = br.readLine()) != null) {
+        if (line.isEmpty()) continue;
         String[] splits = line.trim().split("\\.\\s+");
         answers.put(Integer.parseInt(splits[0]), splits[1]);
       }

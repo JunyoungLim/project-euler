@@ -1,6 +1,5 @@
 package problems;
 
-import utils.Benchmark;
 import utils.FileIO;
 
 /**
@@ -10,15 +9,16 @@ import utils.FileIO;
  * @version 1.00
  * @since Dec 17, 2014
  */
-public class Problem011 {
+public class Problem011 implements Solution {
 
   private static final int N = 20;
 
   public static void main(String[] args) {
-    System.out.println(Benchmark.run(new Problem011()::solve));
+    System.out.println(new Problem011().solve());
   }
 
-  public void solve() {
+  @Override
+  public String solve() {
     int[][] grid = FileIO.readMatrix(N, "p011.txt");
     int limit = grid.length - 3;
     int hor = 0, ver = 0, dia1 = 0, dia2 = 0;
@@ -52,6 +52,6 @@ public class Problem011 {
         }
       }
     }
-    System.out.println(Math.max(Math.max(hor, ver), Math.max(dia1, dia2)));
+    return String.valueOf(Math.max(Math.max(hor, ver), Math.max(dia1, dia2)));
   }
 }
