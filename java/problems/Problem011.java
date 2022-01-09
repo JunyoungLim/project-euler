@@ -19,7 +19,7 @@ public class Problem011 implements Solution {
 
   @Override
   public String solve() {
-    int[][] grid = FileIO.readMatrix(N, "p011.txt");
+    int[][] grid = FileIO.readSquareMatrix(N, "p011.txt");
     int limit = grid.length - 3;
     int hor = 0, ver = 0, dia1 = 0, dia2 = 0;
 

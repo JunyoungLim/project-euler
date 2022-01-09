@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 public class FileIO {
@@ -12,36 +15,60 @@ public class FileIO {
   private static final String baseDir = System.getProperty("user.dir");
   private static final String resourcesDir = Paths.get(baseDir, "resources").toString();
 
-  public static int[][] readMatrix(int N, String fileName) {
-    String filePath = Paths.get(resourcesDir, fileName).toString();
-    int[][] text = new int[N][N];
-    try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-      String line;
-      for (int i = 0; (line = br.readLine()) != null && i < N; i++) {
-        String[] splits = line.trim().split("\\s+");
-        for (int j = 0; j < N; j++) {
-          text[i][j] = Integer.parseInt(splits[j]);
-        }
+  public static int[][] readSquareMatrix(int N, String fileName) {
+    return readMatrix(N, N, fileName);
+  }
+
+  public static int[][] readMatrix(int numRows, int numCols, String fileName) {
+    return readGrid(numRows, numCols, fileName, "\\s+");
+  }
+
+  public static List<int[][]> readSudokuGrids(int numGrids, String fileName) {
+    List<String> lines = readLines(fileName);
+    List<int[][]> sudokuGrids = new LinkedList<>();
+    for (int i = 0; i < numGrids; i++) {
+      sudokuGrids.add(readGrid(9, 9, lines.subList(1 + i * 10, 10 + i * 10), "(?!^)"));
+    }
+    return sudokuGrids;
+  }
+
+  private static int[][] readGrid(int numRows, int numCols, String fileName, String delimiter) {
+    return readGrid(numRows, numCols, readLines(fileName), delimiter);
+  }
+
+  private static int[][] readGrid(int numRows, int numCols, List<String> lines, String delimiter) {
+    int[][] text = new int[numRows][numCols];
+    for (int i = 0; i < numRows; i++) {
+      String[] splits = lines.get(i).trim().split(delimiter);
+      for (int j = 0; j < numCols; j++) {
+        text[i][j] = Integer.parseInt(splits[j]);
       }
-    } catch (IOException e) {
-      System.err.println(e);
     }
     return text;
   }
 
   public static Map<Integer, String> readAnswers() {
-    String filePath = Paths.get(resourcesDir, "answers.txt").toString();
-    Map<Integer, String> answers = new HashMap<Integer, String>();
-    try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-      String line;
-      while ((line = br.readLine()) != null) {
-        if (line.isEmpty()) continue;
-        String[] splits = line.trim().split("\\.\\s+");
-        answers.put(Integer.parseInt(splits[0]), splits[1]);
-      }
-    } catch (IOException e) {
-      System.err.println(e);
+    List<String> lines = readLines("answers.txt");
+    Map<Integer, String> answers = new HashMap<>();
+    for (String line : lines) {
+      if (line.isEmpty()) continue;
+      String[] splits = line.trim().split("\\.\\s+");
+      answers.put(Integer.parseInt(splits[0]), splits[1]);
     }
     return answers;
+  }
+
+  private static List<String> readLines(String fileName) {
+    String filePath = Paths.get(resourcesDir, fileName).toString();
+    List<String> lines = new ArrayList<>();
+    try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+      String line;
+      while ((line = reader.readLine()) != null) {
+        lines.add(line);
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+    return lines;
   }
 }
