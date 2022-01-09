@@ -23,9 +23,9 @@ public class Problem002 implements Solution {
     int sum = 0;
     while (fibo <= LIMIT) {
       fibo = f + s;
-			if (fibo % 2 == 0) {
-				sum += fibo;
-			}
+      if (fibo % 2 == 0) {
+        sum += fibo;
+      }
       f = s;
       s = fibo;
     }

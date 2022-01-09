@@ -52,6 +52,6 @@ public class Problem052 {
 
 // Answer is 142857
 // Execution time is 4.994517 ms
-	
+  
 
 
