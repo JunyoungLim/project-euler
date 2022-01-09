@@ -11,13 +11,7 @@ public class SolutionCheck {
 
   private static final Map<Integer, String> answers = FileIO.readAnswers();
 
-  @Test
-  public void checkProblem001() {
-    assertEquals(answers.get(1), new Problem001().solve());
-  }
-
-  @Test
-  public void checkProblem002() {
-    assertEquals(answers.get(2), new Problem002().solve());
-  }
+  @Test public void checkProblem001() { assertEquals(answers.get(  1), new Problem001().solve()); }
+  @Test public void checkProblem002() { assertEquals(answers.get(  2), new Problem002().solve()); }
+  @Test public void checkProblem003() { assertEquals(answers.get(  3), new Problem003().solve()); }
 }

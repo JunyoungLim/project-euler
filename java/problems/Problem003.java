@@ -7,9 +7,14 @@ package problems;
  * @version 1.00
  * @since Dec 14, 2014
  */
-public class Problem003 {
+public class Problem003 implements Solution {
 
   public static void main(String[] args) {
+    System.out.println(new Problem003().solve());
+  }
+
+  @Override
+  public String solve() {
     long d = 600851475143L;
 
     for (int i = 3; i < Math.sqrt(d); i += 2) {
@@ -19,7 +24,7 @@ public class Problem003 {
         }
       }
     }
-    System.out.println(d);
+    return String.valueOf(d);
   }
 
   // universal solution for finding the largest prime factor : not necessary for this specific problem
