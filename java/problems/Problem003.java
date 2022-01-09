@@ -1,6 +1,3 @@
-/**
- *
- */
 package problems;
 
 /**
@@ -27,17 +24,13 @@ public class Problem003 {
 
   // universal solution for finding the largest prime factor : not necessary for this specific problem
   public static int getLargestPrimeFactor(int n) {
-    if (n == 1) {
-      return 1;
-    }
+    if (n == 1) return 1;
     if (n % 2 == 0) {
       while (n % 2 == 0) {
         n /= 2;
       }
     }
-    if (n == 1) {
-      return 2;
-    }
+    if (n == 1) return 2;
 
     int i = 3;
     for (; i <= (int) Math.sqrt(n); i += 2) {
@@ -48,9 +41,7 @@ public class Problem003 {
       }
     }
     i -= 2;
-    if (n == 1) {
-      return i;
-    }
+    if (n == 1) return i;
     return n;
   }
 }
