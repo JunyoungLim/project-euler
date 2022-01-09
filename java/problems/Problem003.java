@@ -28,7 +28,7 @@ public class Problem003 implements Solution {
   }
 
   // universal solution for finding the largest prime factor : not necessary for this specific problem
-  public static int getLargestPrimeFactor(int n) {
+  public int getLargestPrimeFactor(int n) {
     if (n == 1) return 1;
     if (n % 2 == 0) {
       while (n % 2 == 0) {
