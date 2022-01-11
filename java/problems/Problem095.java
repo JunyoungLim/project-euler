@@ -13,13 +13,15 @@ public class Problem095 extends Solution {
 
   @Override
   public String solve() {
-    // Compute divisor sum of each number under N.
+    // Compute divisor sum of each number not exceeding N.
     int[] divisorSum = new int[N + 1];
     for (int i = 2; i <= N; i++) {
       divisorSum[i] = 1;
-      for (int j = 2, end = (int) Math.sqrt(i); j <= end; j++) {
+      int sqrt = (int) Math.sqrt(i);
+      for (int j = 2; j < sqrt; j++) {
         if (i % j == 0) divisorSum[i] += j + i / j;
       }
+      if (i % sqrt == 0) divisorSum[i] += sqrt;
     }
 
     // Find the longest amicable chain.

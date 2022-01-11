@@ -1,6 +1,3 @@
-/**
- *
- */
 package problems;
 
 /**
@@ -10,25 +7,31 @@ package problems;
  * @version 1.00
  * @since Dec 31, 2014
  */
-public class Problem021 {
+public class Problem021 extends Solution {
 
-  public static void run() {
+  private static final int N = 10000;
+
+  public static void main(String[] args) {
+    new Problem021().run();
+  }
+
+  @Override
+  public String solve() {
     int sum = 0;
-    for (int i = 1; i < 10000; i++) {
+    for (int i = 1; i < N; i++) {
       if (isAmicable(i)) {
         sum += i;
       }
     }
-    System.out.println(sum);
-
+    return String.valueOf(sum);
   }
 
-  public static boolean isAmicable(int a) {
+  public boolean isAmicable(int a) {
     int b = sumFactor(a);
     return (a != b) && (a == sumFactor(b));
   }
 
-  public static int sumFactor(int n) {
+  public int sumFactor(int n) {
     if (n == 0) {
       return 0;
     }
@@ -45,7 +48,3 @@ public class Problem021 {
     return sum;
   }
 }
-
-// Answer is 31626
-// Execution time is 8.740898 ms
-
