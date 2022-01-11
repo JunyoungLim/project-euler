@@ -29,10 +29,6 @@ public class Benchmark {
     return new Result(timeElapsed, memoryUsed);
   }
 
-  public static double byteToMB(double bytes) {
-    return bytes / MEGABYTE;
-  }
-
   public static class Result {
 
     private final long timeElapsed;
@@ -49,6 +45,10 @@ public class Benchmark {
 
     long getMemoryUsed() {
       return this.memoryUsed;
+    }
+
+    private double byteToMB(double bytes) {
+      return bytes / MEGABYTE;
     }
 
     @Override
