@@ -11,6 +11,8 @@ public class Problem095 extends Solution {
     new Problem095().run();
   }
 
+  // TODO: try sum of divisor function using primes?
+  // Maybe that can be faster.
   @Override
   public String solve() {
     // Compute divisor sum of each number not exceeding N.
