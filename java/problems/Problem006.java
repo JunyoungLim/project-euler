@@ -7,12 +7,12 @@ package problems;
  * @version 1.00
  * @since Dec 15, 2014
  */
-public class Problem006 implements Solution {
+public class Problem006 extends Solution {
 
   private static final int NUM = 100;
 
   public static void main(String[] args) {
-    System.out.println(new Problem006().solve());
+    new Problem006().run();
   }
 
   @Override

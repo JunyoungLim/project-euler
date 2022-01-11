@@ -3,10 +3,10 @@ package problems;
 import java.util.List;
 import utils.FileIO;
 
-public class Problem096 implements Solution {
+public class Problem096 extends Solution {
 
   public static void main(String[] args) {
-    System.out.println(new Problem096().solve());
+    new Problem096().run();
   }
 
   @Override

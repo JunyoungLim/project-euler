@@ -9,12 +9,12 @@ import utils.FileIO;
  * @version 1.00
  * @since Dec 17, 2014
  */
-public class Problem011 implements Solution {
+public class Problem011 extends Solution {
 
   private static final int N = 20;
 
   public static void main(String[] args) {
-    System.out.println(new Problem011().solve());
+    new Problem011().run();
   }
 
   @Override

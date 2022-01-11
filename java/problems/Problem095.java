@@ -2,15 +2,13 @@ package problems;
 
 import java.util.HashSet;
 import java.util.Set;
-import utils.Benchmark;
 
-public class Problem095 implements Solution {
+public class Problem095 extends Solution {
 
   private static final int N = 1000000;
 
   public static void main(String[] args) {
-    System.out.println(new Problem095().solve());
-    System.out.println(Benchmark.run(new Problem095()::solve));
+    new Problem095().run();
   }
 
   @Override

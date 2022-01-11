@@ -7,10 +7,10 @@ package problems;
  * @version 1.00
  * @since Dec 14, 2014
  */
-public class Problem003 implements Solution {
+public class Problem003 extends Solution {
 
   public static void main(String[] args) {
-    System.out.println(new Problem003().solve());
+    new Problem003().run();
   }
 
   @Override

@@ -1,7 +1,14 @@
 package problems;
 
-public interface Solution {
+import utils.Benchmark;
 
-  String solve();
+public abstract class Solution {
 
+  public abstract String solve();
+
+  public void run() {
+    System.out.println(Benchmark.run(() -> {
+      System.out.println(solve());
+    }));
+  }
 }

@@ -10,10 +10,10 @@ import utils.Benchmark;
  * @version 1.00
  * @since Dec 14, 2014
  */
-public class Problem004 implements Solution {
+public class Problem004 extends Solution {
 
   public static void main(String[] args) {
-    System.out.println(new Problem004().solve());
+    new Problem004().run();
   }
 
   @Override
