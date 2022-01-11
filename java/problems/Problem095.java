@@ -51,7 +51,7 @@ public class Problem095 extends Solution {
     // Find the smallest element in the longest chain found.
     int smallestNumOfLongestChain = startNumOfLongestChain;
     int curNum = startNumOfLongestChain;
-    for (int i = 0; i < 28; i++) {
+    for (int i = 0; i < longestChainLength; i++) {
       smallestNumOfLongestChain = Math.min(curNum, smallestNumOfLongestChain);
       curNum = divisorSum[curNum];
     }
