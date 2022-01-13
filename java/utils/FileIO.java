@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -45,6 +46,16 @@ public class FileIO {
       }
     }
     return text;
+  }
+
+  public static byte[] readBytes(String fileName) {
+    List<String> lines = readLines(fileName);
+    String[] splits = lines.get(0).split(",");
+    byte[] bytes = new byte[splits.length];
+    for (int i = 0; i < bytes.length; i++) {
+      bytes[i] = (byte) Integer.parseInt(splits[i]);
+    }
+    return bytes;
   }
 
   public static Map<Integer, String> readAnswers() {

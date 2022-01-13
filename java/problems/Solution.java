@@ -10,5 +10,8 @@ public abstract class Solution {
     System.out.println(Benchmark.run(() -> {
       System.out.println(solve());
     }));
+    printExtraOutput();
   }
+
+  public void printExtraOutput() {}
 }
