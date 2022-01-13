@@ -58,7 +58,7 @@ public class FileIO {
     return answers;
   }
 
-  private static List<String> readLines(String fileName) {
+  public static List<String> readLines(String fileName) {
     String filePath = Paths.get(resourcesDir, fileName).toString();
     List<String> lines = new ArrayList<>();
     try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
