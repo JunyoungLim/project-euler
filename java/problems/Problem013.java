@@ -1,14 +1,8 @@
-/**
- *
- */
 package problems;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.File;
-
 import java.math.BigInteger;
+import java.util.List;
+import utils.FileIO;
 
 /**
  * Problem013.java
@@ -17,35 +11,19 @@ import java.math.BigInteger;
  * @version 1.00
  * @since Dec 17, 2014
  */
-public class Problem013 {
+public class Problem013 extends Solution {
 
-  private static final String[] nums = read();
-
-  public static void run() {
-    BigInteger ans = BigInteger.ZERO;
-    for (String s : nums) {
-      ans = ans.add(new BigInteger(s));
-    }
-    System.out.println(ans.toString().substring(0, 10));
+  public static void main(String[] args) {
+    new Problem013().run();
   }
 
-
-  // read in list of numbers
-  public static String[] read() {
-    String[] text = new String[100];
-    File file = new File("text013.txt");
-    try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-      String line;
-      for (int i = 0; (line = br.readLine()) != null; i++) {
-        text[i] = line;
-      }
-    } catch (IOException e) {
-      System.err.println(e);
+  @Override
+  public String solve() {
+    List<String> nums = FileIO.readLines("p013.txt");
+    BigInteger  sum = BigInteger.ZERO;
+    for (String num : nums) {
+      sum = sum.add(new BigInteger(num));
     }
-    return text;
+    return sum.toString().substring(0, 10);
   }
 }
-
-// Answer is 5537376230
-// Execution time is 6.157391 ms
-

@@ -20,6 +20,8 @@ public class SolutionCheck {
 
   @Test public void checkProblem011() { assertEquals(answers.get( 11), new Problem011().solve()); }
 
+  @Test public void checkProblem013() { assertEquals(answers.get( 13), new Problem013().solve()); }
+
   @Test public void checkProblem021() { assertEquals(answers.get( 21), new Problem021().solve()); }
 
   @Test public void checkProblem059() { assertEquals(answers.get( 59), new Problem059().solve()); }
