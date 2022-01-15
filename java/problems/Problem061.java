@@ -64,7 +64,8 @@ public class Problem061 extends Solution {
   public void printExtraOutput() {
     boolean[] printed = new boolean[9];
     for (int s = 3, count = 0; count < 6; count++) {
-      System.out.print(String.format("{%d: %d} -> ", s, this.record[s]));
+      printed[s] = true;
+      System.out.printf("{%d: %d} -> ", s, this.record[s]);
       for (int t = 3; t <= 8; t++) {
         if (printed[t]) continue;
         if (this.record[s] % 100 == this.record[t] / 100) {
@@ -73,6 +74,6 @@ public class Problem061 extends Solution {
         }
       }
     }
-    System.out.print(String.format("{%d: %d}", 3, this.record[3]));
+    System.out.printf("{%d: %d}", 3, this.record[3]);
   }
 }
