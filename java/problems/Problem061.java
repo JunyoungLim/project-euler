@@ -38,7 +38,7 @@ public class Problem061 extends Solution {
   }
 
   private boolean search(int count, int prevTail) {
-    // Base case: check if the last tail equals to the initial head.
+    // Termination case: check if the last tail equals to the initial head.
     if (count == 6) return (prevTail == this.record[3] / 100);
     // Recursive case: search for the next polygonal set.
     for (int s = 3; s <= 8; s++) {
