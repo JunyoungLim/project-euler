@@ -1,14 +1,18 @@
 package problems;
 
-//import Java.problems.utils.Utils;
+import utils.FileIO;
 
-public class Problem345 {
+public class Problem345 extends Solution {
 
   private static final int N = 15;
 
   public static void main(String[] args) {
-    int[][] matrix = new int[1][1]; //Utils.readMatrix(N,
-    //Objects.requireNonNull(Problem345.class.getResource("p345.txt")));
+    new Problem345().run();
+  }
+
+  @Override
+  public String solve() {
+    int[][] matrix = FileIO.readSquareMatrix(15, "p345.txt");
     int[] y = new int[N];
     for (int i = 0; i < N; i++) {
       y[i] = i;
@@ -36,6 +40,7 @@ public class Problem345 {
       sum += matrix[i][y[i]];
     }
     System.out.println(sum);
+    return null;
   }
 
   public static void printCoordinates(int[][] matrix, int[] y) {
@@ -48,4 +53,5 @@ public class Problem345 {
     }
     System.out.println();
   }
+
 }
