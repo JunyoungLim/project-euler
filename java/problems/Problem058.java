@@ -18,7 +18,7 @@ public class Problem058 extends Solution {
       }
       candidate += side - 1;
       this.total += 4;
-      if ((double) this.numPrimes / this.total <= 0.1) break;
+      if ((double) this.numPrimes / this.total < 0.1) break;
     }
     return String.valueOf(side);
   }
