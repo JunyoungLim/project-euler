@@ -15,7 +15,7 @@ def sieve(N):
   return s
 
 L = 10**10
-N = 2*10**6
+N = int(10**10 / (2 * 7037))
 n = 0
 n_is_odd = False
 s = sieve(N)
